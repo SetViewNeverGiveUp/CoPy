@@ -1,7 +1,13 @@
 # 简介
 这是一套将需要的中间件进行二次加工，并快速封装成自己需要样子的脚手架。使用方法如下：
-
-# 自带的组件，后续可以根据需求自行封装：
+# 配置文件选择
+```
+framework/conf_env.py
+如图所示，修改ENV_CONF_NAME可以切换不同的配置环境
+```
+<img src="config_screenshot.png">
+# 自带的组件<br />
+(后续可以根据需求自行封装)
 lib_common // 通用组件 <br />
 lib_curl // 网络请求 <br />
 lib_datetime // 时间相关操作<br />
