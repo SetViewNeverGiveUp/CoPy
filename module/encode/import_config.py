@@ -9,6 +9,7 @@ class FCode:
         self.mysql_conn = component.TESTING_MYSQL()
         return
 
+
     # 读数据
     def read_file(self):
         filepath = './source/config.json'
