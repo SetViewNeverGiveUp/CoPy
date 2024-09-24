@@ -22,11 +22,11 @@ from component import *
         # 声明MySQL组件
         self.mysql_conn = component.TESTING_MYSQL()
         # 声明Elasticsearch组件
-    self.es = component.TESTING_ELASTICSEARCH()
+        self.es = component.TESTING_ELASTICSEARCH()
         # 声明通用组件
-    self.common = component.LIB_COMMON()
+        self.common = component.LIB_COMMON()
         # 声明S3组件
-    self.s3 = component.LIB_S3()
+        self.s3 = component.LIB_S3()
         # 天气API         
         self.api_weather = component.TESTING_API_WEATHER()
         return
