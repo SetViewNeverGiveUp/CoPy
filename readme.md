@@ -10,7 +10,7 @@ lib_earth // 演示调用某三方API平台<br />
 lib_mysql // MySQL操作<br />
 lib_S3 // AWS S3操作<br />
 # 组件使用演示
-```angular2html
+```python
 # 每个文件前3行载入框架依赖
 import sys,json
 sys.path.append("./framework/component")
